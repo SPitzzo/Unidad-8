@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad JavaScrip N°3</title>
+    <script type="text/javascript" src="control.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form name="test" action="practica.html" method="get">
+        <section class= "formulario" >
+
+            <h1>Ingrese a su cuenta</h1>
+
+            <input class="controles" id="usuario" type="text" name="usuario" placeholder="Ingrese su Usuario">
+
+            <input class="controles" id="clave" type="password" name="clave" required placeholder="Ingrese su Contraseña">
+
+            <input class= "boton" type="button" value="Ingresar" onclick="validarDatos(this.form);">
+
+            <input class= "boton" type="submit" value="Registrarse">
+
+        </section>
+    </form>
+    <p></p>
+</body>
+
+</html>
